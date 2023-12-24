@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+.im {
+    width:100%;
+    height:35rem;
+    
+    background-image: url(../assets/images/career.jpg);
+    background-size:cover;
+    
+    
+
+}
+
+
+@media (max-width:670px){
+    .im{
+        height:20rem;
+    }
+
+    h1{
+        font-size: 35px;
+        padding:15px;
+        color:yellow;
+        
+    }
+}

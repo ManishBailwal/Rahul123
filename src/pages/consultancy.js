@@ -5,6 +5,8 @@ import "./consultancy.css";
 import Footer from "../components/footer";
 import Card from "../components/card";
 import Form from '../components/form'
+import hiw from '../assets/images/hiw.png'
+
 
 function Consultancy() {
   return (
@@ -42,13 +44,15 @@ function Consultancy() {
       < div className="form-section">
 
         <div className="why">
-          <p>how it works </p>
-        <p>how it works </p>
-        <p>how it works </p></div>
+        <img src={hiw} />
+        </div>
+         
 
         
         <div className="cform"><Form></Form></div>
       </div>
+
+      <Footer></Footer>
        
 
        

@@ -22,7 +22,7 @@
     position: relative;
     top:-3-25x;
     
-    background-size: cover;
+    background-size:cover;
 }
 
 .heading{
@@ -85,7 +85,7 @@
 
 
 .form-section{
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
     display:flex;
@@ -93,7 +93,14 @@
 }
 
 .why{
-    width:50%;
+    width:40%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.why img{
+    height:500px;
 }
 
 .cform{
@@ -131,4 +138,28 @@
         
     }
 
+    
+}
+
+@media (max-width:1138px){
+
+    
+.why{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+    .why img{
+        width:500px;
+        margin-left: 0px;
+        
+        
+    }
+}
+
+@media (max-width:525px){
+    .why img{
+        width:300px;
+    }
 }

@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
-.cont{
-    background-color: #031538;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.why{
+    background-color:beige;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,13 +20,14 @@
     
 }
 
-h1{
+h4{
+    font-size: 50px;
     padding-top: 5rem;
-    color:white;
+    color:black;
 }
 
-.cont p{
-    color:white;
+.why p{
+    color:black;
     text-align: center;
     padding-bottom: 5rem;
 

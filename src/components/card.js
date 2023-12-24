@@ -1,16 +1,16 @@
 import React from 'react'
 import logo from '../assets/images/logo.jpeg'
-import './card.css'
+import styles from './card.module.css'
 
 function Card() {
   return (
-    <div className="upc">
+    <div className={styles.upc}>
 
-        <div className="gradiant"></div>
-        <div className="profile-down">
+        <div className={styles.gradiant}></div>
+        <div className={styles.profile_down}>
             <img src={logo}/>
-            <div className="profile-title">Dr Manish </div>
-            <div className="profile-description">Hi ,this is Manish Bailwal  , a professional vet
+            <div className={styles.profile_title}>Dr Manish </div>
+            <div className={styles.profile_description}>Hi ,this is Manish Bailwal  , a professional vet
              feel free to connect with us , we will take care of you 
             </div>
         </div>

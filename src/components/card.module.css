@@ -19,11 +19,12 @@
     border-radius:4px 4px 0px 0px;
 }
 
-.profile-down{
+.profile_down{
     text-align: center;
 }
-.profile-down img{
+.profile_down img{
     height:150px;
+    width:150px;
     border-radius:100px;
     margin-top:-75px;
     
@@ -31,12 +32,12 @@
     background: white;
 }
 
-.profile-title{
+.profile_title{
     font-size:36px;
     font-weight:600;
 }
 
-.profile-description{
+.profile_description{
     padding:20px 40px;
     
 }

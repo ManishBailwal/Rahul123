@@ -3,7 +3,8 @@
     justify-content:space-between;
     align-items:center;
     padding:8px;
-    background-color: brown;
+    background-color:blue;
+    height:110px;
 }
 
 .main_nav img{
@@ -16,9 +17,15 @@
     
 }
 
+
 .menu{
+    
     display:flex;
     gap:16px;
+}
+.submenu{
+    position:absolute;
+    display:none;
 }
 
 .li{
@@ -27,7 +34,16 @@
     list-style: none;
     color:aliceblue;
     margin-left: 20px;
+    
 }
+
+.subitems{
+    list-style:none;
+    text-decoration: none;
+    color:white;
+    
+}
+
 
 
 
@@ -38,12 +54,23 @@
     .main_nav{
         flex-direction:column;
         gap:16px;
+        height:120px;
     }
 
     .li{
         padding:4px;
         margin-left: 0;
     }
+
+   
 }
 
+.li:hover{
+    color:black;
+}
 
+.li:hover .submenu{
+    position:absolute;
+    display:block;
+
+}

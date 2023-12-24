@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './pages/home';
-import About from './pages/about';
+
 import Consultancy from './pages/consultancy';
 import Career from './pages/career';
+import Gromming from './pages/gromming'
 
 
 import {
@@ -22,8 +23,8 @@ const router = createBrowserRouter([
     element: <Consultancy/>,
   },
   {
-    path: "about",
-    element: <About/>,
+    path: "gromming",
+    element: <Gromming/>,
   },
   {
     path: "career",
